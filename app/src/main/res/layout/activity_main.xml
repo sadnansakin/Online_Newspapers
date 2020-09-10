@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangladeshi NewsPapers"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-black"
+            ></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="15dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="20dp">
+                        <Button
+                            android:id="@+id/topBanglaNewsId"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_margin="15dp"
+                            android:textColor="#FFFFFF"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:text="Bangla Newspapers"
+                            android:background="#64b5f6"></Button>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="15dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="20dp">
+                        <Button
+                            android:id="@+id/topEnglishNewsBDId"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_margin="15dp"
+                            android:padding="5dp"
+                            android:text="Top English Newspaper BD"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold"
+                            android:background="#FF7043"></Button>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="International NewsPapers"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-black"
+            ></TextView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+
+                    <Button
+                        android:id="@+id/new_york_timesButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:background="#64b5f6"
+                        android:padding="5dp"
+                        android:text="The New York Times"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"></Button>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+
+                    <Button
+                        android:id="@+id/theguardianButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:background="#00BFA5"
+                        android:padding="5dp"
+                        android:text="The Guardian"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"></Button>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+
+                    <Button
+                        android:id="@+id/the_japan_timesButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:background="#EF5350"
+                        android:padding="5dp"
+                        android:text="The Japan Times"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"></Button>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+
+                    <Button
+                        android:id="@+id/the_washingtonButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:background="#B39DDB"
+                        android:padding="5dp"
+                        android:text="The Washington Post"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"></Button>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+
+                    <Button
+                        android:id="@+id/the_india_timesButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:background="#43A047"
+                        android:padding="5dp"
+                        android:text="The India Times"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"></Button>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sports"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            ></TextView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_marginLeft="20dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+                    <Button
+                        android:id="@+id/sportEnglishButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:textColor="#FFFFFF"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:text="Sport English"
+                        android:background="#00BFA5"></Button>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_marginLeft="20dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+                    <Button
+                        android:id="@+id/espnButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:padding="5dp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="espn"
+                        android:background="#B39DDB"></Button>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_marginLeft="20dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+                    <Button
+                        android:id="@+id/nbcButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:padding="5dp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="NBC"
+                        android:background="#43A047"></Button>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Live News"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            ></TextView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_marginLeft="20dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+                    <Button
+                        android:id="@+id/bbcBanglaButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:textColor="#FFFFFF"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:text="BBC Bangla"
+                        android:background="#EF5350"></Button>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_marginLeft="20dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+                    <Button
+                        android:id="@+id/somoyNewsButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:padding="5dp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="Somoy News"
+                        android:background="#A30000"></Button>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_marginLeft="20dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="15dp"
+                    app:cardCornerRadius="20dp">
+                    <Button
+                        android:id="@+id/jamunaTVButtonId"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="15dp"
+                        android:padding="5dp"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:text="Jamuna | TV"
+                        android:background="#7F0000"></Button>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</ScrollView>
